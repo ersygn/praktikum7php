@@ -1,0 +1,1 @@
+ALTER TABLE `pegawai` ADD FOREIGN KEY (`id_kelamin`) REFERENCES `kelamin`(`id_kelamin`) ON DELETE RESTRICT ON UPDATE RESTRICT; ALTER TABLE `pegawai` ADD FOREIGN KEY (`id_status`) REFERENCES `status`(`id_status`) ON DELETE RESTRICT ON UPDATE RESTRICT;
